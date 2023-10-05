@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="predict_activity" type="data_publisher.py" name="data_publisher" output="screen"/>
+  <node pkg="predict_activity" type="activity_predictor.py" name="activity_predictor" output="screen"/>
+</launch>

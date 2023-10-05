@@ -1,0 +1,8 @@
+prefix=/home/nikola/conda_ros_ws/install
+
+Name: predict_activity
+Description: Description of predict_activity
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rospy std_msgs
